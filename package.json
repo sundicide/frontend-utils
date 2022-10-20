@@ -1,0 +1,23 @@
+{
+  "name": "@standigm/fe-utils",
+  "version": "0.0.1",
+  "description": "frontend utils for standigm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm -w --parallel test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Standigm/frontend-utils"
+  },
+  "author": "standigm",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-plugin-import": "^2.26.0",
+    "esm": "^3.2.25",
+    "mocha": "^10.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
