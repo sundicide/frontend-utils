@@ -1,4 +1,4 @@
-module.exports = function(data) {
+module.exports = function(data: string) {
   try {
     const regex = /^\{.*\}$/
     if (!regex.test(data)) {

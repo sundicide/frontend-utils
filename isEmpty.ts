@@ -1,4 +1,4 @@
-module.exports = function(data) {
+module.exports = function(data: any) {
   const dataType = typeof data
 
   if (data === null || data === undefined) {
